@@ -1,0 +1,24 @@
+﻿@model Book
+<br />
+<form class="mt-5" method="post">
+    <fieldset disabled>
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Publishing" class="form-label"></label>
+            <input asp-for="Publishing" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Edition" class="form-label"></label>
+            <input asp-for="Edition" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="NumberOfPages" class="form-label"></label>
+            <input asp-for="NumberOfPages" class="form-control">
+        </div>
+    </fieldset>
+    
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>
